@@ -1,0 +1,105 @@
+ .top{
+       width: 100%;
+       background-color:#000;
+      
+	 }
+	 .top1::after{
+	 	content: "";
+	 	display: block;
+	 	clear: both;
+	 }
+	 .top1{
+	 	 margin: 0 auto;
+	 	 width: 1090px;
+	 	/* background-color: pink;*/
+	 }
+	 .top1 .kehu{
+	 	position: relative;
+	 }
+	 .top1 .xiala1{
+	 	padding:6px 6px;
+	 	border:1px solid #ccc;
+	 	position: absolute;
+	 }
+	 .top1 .xiala1:last-child{
+	 	padding: 0;
+	 }
+	 .top1 .xiala1{
+	 	z-index:99;
+	 }
+	 .top1 .xiala1>li{
+       font-size: 14px;
+       text-align: center;
+       border-bottom:1px solid #ccc;  
+
+	 }
+	 .top1 .xiala1>li>a{
+	 	color: gray;
+	 }
+	 .top1 .xiala1{
+	 	display: none;
+	 }
+	 .top1>.kehu:hover>.xiala1{
+       display: block;
+       color: rgb(180,160,120); 
+	 }
+	 .top1>li{
+	 	float: left;
+	 	font-size: 13px;
+	 	height: 38px;
+	 	line-height: 38px;
+	 }
+	 .top .ddhh>i{
+	 	color: rgb(180,160,120);
+	 	font-size: 12px;
+	 }
+	 .top1>li>a{
+	 	color: #ccc;
+	 }
+	 .top1>li:first-child{
+	 	margin-left: 5px;
+	 }
+	 .top1>li:nth-child(2){
+	 	margin-left:30px;
+
+	 }
+	 .top1>li:nth-child(3)>a{
+	 	color: rgb(180,160,120);
+	 	text-decoration: underline;
+	 }
+	 
+	 .top1>li:nth-child(3){
+	 	margin-left: 10px;
+
+	 }
+	 .top1>li:nth-child(4){
+	 	margin-left: 120px;
+
+	 }
+	  .top1>li:first-child~*{
+	  	margin-right:10px;
+	  }
+	  .top1>li:hover>a{
+	  	color: #fff;
+	  	text-decoration: none;
+	  }
+	  .top1>li:nth-child(2):hover>a{
+	  	text-decoration: none;
+	  }
+	   .top1>li:last-child>div{
+	  	display: none;
+	  }
+	  .top1>li:last-child:hover>div{
+	  	display: block;
+	  }
+	 .top1>li:last-child{
+	 	position: relative;
+	 }
+	 div.erweima2{
+	 	width: 60px;
+	 	height: 60px;
+	 	position: absolute;
+	 	top:38px;
+	 	z-index: 30;
+	 }
+	   

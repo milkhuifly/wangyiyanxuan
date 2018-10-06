@@ -1,0 +1,156 @@
+.middle7{
+	width: 100%;
+	height: 483px;
+	background-color: #fff;
+	margin-top: 30px;
+}
+.wrapper7{
+	width: 1090px;
+	height: 425px;
+	margin: 0 auto;
+	padding-top: 58px;
+	/*background-color: #234444;*/
+}
+.m7-top{
+	height: 48px;
+/*	background-color: #33ff55;*/
+}
+.m7-top .xian>a{
+	font-size: 32px;
+}
+.m7-top .geng>a{
+	font-size: 17px;
+	margin-left: 860px;
+}
+.m7-top .xian:hover>a,.m7-top .geng:hover>a{
+	color: rgb(180,160,120);
+}
+
+.m7-zhu{
+     height: 377px;
+     width: 1090px;
+   /*  background-color:gray;*/
+}
+.m7-zhu>li:first-child{
+  width: 224px;
+  height: 377px;
+ /* background-color: yellow;*/
+  margin-right: 3px;
+}
+.m7-zhu>li:nth-child(2)
+{
+	width: 430px;
+	height:377px; 
+	/*background-color:green;*/
+	margin-right: 3px;
+}
+.m7-zhu>li:nth-child(3){
+	width: 430px;
+	height:377px; 
+/*	background-color:blue;*/
+}
+.m7-zhu::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.m7-zhu>li{
+	float: left;
+}
+.pixiang,.dianzi{
+	margin-bottom: 2px;
+}
+.pixiang,.guo,.dianzi,.yanzhao{
+	height: 188px;
+}
+.pixiang::after,.guo::after,.dianzi::after,.yanzhao::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.pixiang>div,.guo>div,.dianzi>div,.yanzhao>div{
+	float: left;
+}
+.pi2,.guo2,.dian2,.yan2{
+	width: 245px;
+	height: 188px;
+}
+.pi1,.guo1,.dian1,.yan1{
+	width: 180px;
+	height: 188px;
+	margin-right: 5px;
+}
+.pi1>img,.guo1,.dian1,.yan1{
+	transition: transform 1s;
+}
+.pi1:hover>img,.guo1:hover,.dian1:hover,.yan1:hover{
+   transform: scale(1.16);
+}
+.pi2>span:nth-child(1),
+.guo2>span:nth-child(1),
+.dian2>span:nth-child(1),
+.yan2>span:nth-child(1){
+	font-size: 16px;
+}
+.pi2>span:nth-child(3),
+.guo2>span:nth-child(3),
+.dian2>span:nth-child(3),
+.yan2>span:nth-child(3){
+	font-size: 14px;
+	color: gray;
+}
+.pi2>span:nth-child(5),
+.guo2>span:nth-child(5),
+.dian2>span:nth-child(5),
+.yan2>span:nth-child(5){
+	font-size: 12px;
+}
+.pi2>span:nth-child(7),
+.guo2>span:nth-child(7),
+.dian2>span:nth-child(7),
+.yan2>span:nth-child(7){
+	font-size: 17px;
+	color: red;
+}
+.pi2>span:nth-child(8),
+.guo2>span:nth-child(8),
+.dian2>span:nth-child(8),
+.yan2>span:nth-child(8){
+	font-size: 16px;
+	color: gray;
+	text-decoration: line-through;
+}
+.pi2>span:nth-child(10)>a,
+.guo2>span:nth-child(10)>a,
+.dian2>span:nth-child(10)>a,
+.yan2>span:nth-child(10)>a{
+	font-size: 18px;
+	color:#fff;
+	background-color:#D00000;
+
+}
+.pixiang,.dianzi{
+	margin-bottom: 10px;
+}
+.pi2>span:nth-child(10):hover>a,
+.guo2>span:nth-child(10):hover>a,
+.dian2>span:nth-child(10):hover>a,
+.yan2>span:nth-child(10):hover>a{
+	background-color:#D00000;
+	opacity: 0.7;
+}
+.pi2>span:nth-child(1):hover>a,
+.guo2>span:nth-child(1):hover>a,
+.dian2>span:nth-child(1):hover>a,
+.yan2>span:nth-child(1):hover>a{
+	color: rgb(180,160,120);
+}
+.pi2 .jdt1,.guo2 .jdt2,.dian2 .jdt3,.yan2.jdt4{
+	width: 110px;
+	height: 7px;
+	border-radius:29px;
+	margin-top: 10px;
+	background-color:pink;
+	float: left;
+}
+

@@ -1,0 +1,199 @@
+.middle-last{
+	background-color: #f4f0ea;
+	/*background-color: green;*/
+	padding: 60px;
+	margin-top: 20px;
+}
+.wrapper-last{
+	width: 1090px;
+	margin: 0 auto;
+	height: 540px;
+    overflow: hidden;
+    position: relative;
+	/*background-color:teal;*/
+}
+  .wrapper-last .last-top{
+  	height: 48px;
+  	width:1090px;
+  	padding-bottom: 20px;
+  }
+   .wrapper-last .last-top>span:nth-child(1){
+   	font-size: 32px;
+   	font-weight: 2px;
+   	margin-right: 20px;
+   }
+   .wrapper-last .last-top>span:nth-child(2){
+   	font-size: 16px;
+   }
+   .last-di{
+   	width: 2180px;
+   	height: 492px;
+   	animation-name: hua1;
+   	animation-duration: 15s;
+   	animation-iteration-count: infinite;
+   	animation-timing-function:linear;
+   }
+  /* .last-di{
+    width: 2180px;
+    height: 492px;
+    animation-name: hua2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+   }*/
+   .last-di>li{
+   	float: left;
+   }
+   /*	@keyframes hua{
+			0%{
+				left: 0;
+			}
+			100%{
+				left:-2180px;
+			}
+		}*/
+	@keyframes hua1{
+			0% {
+				transform: translateX(0);
+			}
+			5% {
+				transform: translateX(-367px);
+			}
+			13% {
+				transform: translateX(-367px);
+			}
+			22% {
+				transform: translateX(-734px);
+			}
+			31% {
+				transform: translateX(-734px);
+			}
+			42% {
+				transform: translateX(-1090px);
+			}
+			51% {
+				transform: translateX(-1090px);
+			}
+       62% {
+        transform: translateX(-1445px);
+      }
+      69% {
+        transform: translateX(-1445px);
+      }
+      79% {
+        transform: translateX(-1812px);
+      }
+      86% {
+        transform: translateX(-1812px);
+      }
+      92% {
+        transform: translateX(-2180px);
+      }
+      100% {
+        transform: translateX(-2180px);
+      }
+    }
+
+   .last-di .last-nav1,.last-di .last-nav2{
+    	width: 1090px;
+    	height: 492px;
+    	/*background-color: pink;*/
+    	margin-bottom: 20px;
+    }
+    .last-nav1>div,
+     .last-nav2>div{
+    	width: 355px;
+    	height: 492px;
+    	margin-right: 12px;
+    	/*background-color:#ccc;*/
+        float: left;
+    }
+    .last-di .last-nav1>div:last-child,
+     .last-di .last-nav2>div:last-child{
+    	margin-right:0;
+    }
+
+    .nav11,.nav22,.nav33,.nav44,.nav55,.nav66{
+    	position: relative;
+    }
+    .nav111,.nav221,.nav331,.nav441,.nav551,.nav661{
+    	width: 355px;
+    	height: 355px;
+    	
+    }
+    .last-di:hover{
+      animation:paused;
+    }
+     .nav112,.nav222,.nav332,.nav442,.nav552,.nav662{
+     	width:340px;
+     	height: 167px;
+     	margin-top: 30px;
+     	margin: 0 auto;
+     	background-color: #fff;
+     	position: absolute;
+     	left: 50%;
+     	margin-left: -170px;
+     	top: 50%;
+     	margin-top:80px;
+
+     }
+  .nav112>span:nth-child(1),
+  .nav222>span:nth-child(1),
+  .nav332>span:nth-child(1),
+   .nav442>span:nth-child(1),
+    .nav552>span:nth-child(1),
+     .nav662>span:nth-child(1){
+  	font-size: 16px;
+  	color: gray;
+  }
+   .nav112>span:nth-child(3),
+  .nav222>span:nth-child(3),
+  .nav332>span:nth-child(3),
+   .nav442>span:nth-child(3),
+    .nav552>span:nth-child(3),
+     .nav662>span:nth-child(3){
+  	font-size: 17px;
+  }
+   .nav112>span:nth-child(4),
+  .nav222>span:nth-child(4),
+  .nav332>span:nth-child(4),
+   .nav442>span:nth-child(4),
+    .nav552>span:nth-child(4),
+     .nav662>span:nth-child(4){
+  	font-size: 17px;
+  	color: gray;
+  	margin-left:100px;
+
+  }
+   .nav112>span:nth-child(7),
+  .nav222>span:nth-child(7),
+  .nav332>span:nth-child(7),
+   .nav442>span:nth-child(7),
+    .nav552>span:nth-child(7),
+     .nav662>span:nth-child(7){
+  	font-size: 14px;
+
+  }
+  .nav11>.nav111>img,
+  .nav22>.nav221>img,
+  .nav33>.nav331>img,
+  .nav44>.nav441>img,
+  .nav55>.nav551>img,
+  .nav66>.nav661>img{
+  	transition: transform 1s;
+  }
+  .nav11:hover>.nav111>img,
+   .nav22:hover>.nav221>img,
+    .nav33:hover>.nav331>img,
+    .nav44:hover>.nav441>img,
+    .nav55:hover>.nav551>img,
+    .nav66:hover>.nav661>img
+    {
+  	transform: scale(1.05);
+  }
+
+  
+
+
+ 
+

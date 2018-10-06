@@ -1,0 +1,66 @@
+.middle10{
+  margin-top: 20px;
+}
+.wrapper10{
+  margin: 0 auto;
+  width: 1090px;
+  height: 350px;
+}
+.wrapper10 li{
+  height: 350px;
+  width: 265px;
+  margin-right:5px;
+  float: left;
+}
+.wrapper10>li:last-child{
+  margin-right:0;
+}
+.wrapper10 li>div{
+  height:80px;
+}
+.red{
+  color: red;
+}
+.hei{
+  font-size:15px;
+  color: #333;
+}
+.beijing{
+  background-color: red;
+  color: #fff;
+  font-size: 16px;
+}
+.shi>li>img{
+  transition: transform 1s;
+}
+.shi>li:hover>img{
+  transform: scale(1.21);
+}
+.shi{
+  position: relative;
+}
+.shi>li{
+  position: relative;
+}
+.shi>li>div{
+   position: absolute;
+   top: 290px;
+   width: 264px;
+   left: 50%;
+   margin-left: -132px;
+   text-align: center;
+}
+.shi>li>div>span.hei:hover{
+  color: rgb(180,160,120);
+}
+.shi>li>.xuan{
+  position: absolute;
+  top:0;
+  left:140px;
+  width: 50px;
+  height: 20px;
+  font-size: 13px;
+  color: rgb(180,160,120);
+  border: 1px solid rgb(180,160,120);
+  border-radius:5px;
+}

@@ -1,0 +1,116 @@
+.fix{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 70px;
+}
+ .fix .one{
+	height: 145px;
+}
+.two,.three,.four,.five{
+	height: 70px;
+}
+.three>div{
+  font-size: 12px;
+  text-align: center;
+}
+.three>div:first-child{
+	color: gray;
+}
+.three,.four,.five{
+	padding: 0 5px;
+}
+.three>div:nth-child(2),.three>div:nth-child(3){
+   color: red;
+}
+.three>div:nth-child(3),
+.four>div>span,
+.five>div>span{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.four,.five{
+	text-align: center;
+}
+.four>i,.five>i{
+	font-size: 40px;
+	color: #333;
+	font-weight: lighter lighter;
+}
+.fix2>span{
+	font-size: 12px;
+}
+.five>div{
+	padding-bottom: -20px;
+}
+.four:hover>i,.four:hover>div,
+.five:hover>i,.five:hover>div{
+	color: rgb(180,160,120);
+}
+.four .fix2{
+	position: relative;
+}
+.four .fu{
+ width: 367px;
+ height: 200px;
+ position: absolute;
+ left:-367px;
+ top:250px;
+ background-color: #fff;
+}
+.four .fu>li:first-child{
+	height: 70px;
+}
+.fu>li:nth-child(2){
+	text-align: center;
+	line-height: 2em;
+	font-size: 16px;
+	color: gray;
+}
+.fu .fu2{
+	width: 70px;
+	height: 35px;
+	margin-left: 287px;
+	background-color:#b4a078;
+}
+.fu .fu2>span{
+	font-size: 14px;
+	color: #fff;
+}
+.fu .fu1{
+	float: left;
+	width: 250px;
+	margin-left: 30px;
+	border: 1px solid #ccc;
+}
+.fu{
+	border: 1px solid #ccc;
+	box-shadow: 0 0 3em #333;
+	display: none;
+}
+.four:hover>.fu{
+	display: block;
+}
+#six{
+	margin-top: 10px;
+	text-align: center;
+}
+.fa-angle-up{
+	font-size: 50px;
+	color: #333;
+	font-weight: lighter lighter;
+}
+#six:hover>i{
+	color: rgb(180,160,120);
+
+}
+#six:hover>div>span{
+	color: rgb(180,160,120);
+}
+
+
+
+
+
+ 
+

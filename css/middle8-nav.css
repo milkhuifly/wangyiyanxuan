@@ -1,0 +1,45 @@
+.middle8{
+	padding: 20px;
+	margin-top: 20px;
+}
+.wrapper8{
+	padding-top: 20px;
+	width: 1090px;
+	margin: 0 auto;
+	height: 400px;
+}
+.wrapper .miaoshu{
+	background-color: #ccc;
+	position: relative;
+	widows: 1090px;
+}
+.miaoshu>div.one{
+	float: left;
+	/*background-color: blue;*/
+	height: 50px;
+	font-size: 32px;
+}
+.miaoshu>ul.two>li{
+    float: left;
+}
+.miaoshu>ul.two{
+	/*background-color: red;*/
+	width: 720px;
+	height:50px;
+	position: absolute;
+	right:130px;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+}
+.miaoshu>ul.two>li{
+	width: 90px;
+}
+.miaoshu>div.one:hover>a{
+	color: rgb(180,160,120);
+}
+.miaoshu>ul.two>li:hover>a{
+	color: rgb(180,160,120);
+}
+
+

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车页面</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/sub-nav.css">
+	<link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="./css/fix.css">
+	<link rel="stylesheet" href="./css/right-nav.css">
+	<link rel="stylesheet" href="./css/top-nav.css">
+	<link rel="stylesheet" href="./css/footer-nav.css">
+		<link rel="stylesheet" href="./css/bottom-nav.css">
+	<style>
+	    .logo1{
+	background: url("./images/wyyx.png") no-repeat center;
+	/*background-color:#ccc;*/
+	height: 200px;
+	width: 100%;
+	background-origin: padding-box;
+  }
+   .logo2{
+      position: relative;
+      top: -100px;
+      left: 730px;
+   }
+   .logo2>a>i{
+   	color: 	#FFDEAD;
+   	font-size: 26px;
+   }
+   .logo2>a>i:hover{
+   	 color: rgb(180,160,120);
+   	
+   	 font-size: 26px;
+   }
+    .logo2 .fa-search{
+   	position: relative;
+   	left:10px; 	
+   }
+   .logo2 .fa-cart-plus{
+   	position: relative;
+   	left: 20px; 	
+   }
+   .logo2>div.ling{
+   	width: 15px;
+   	height: 15px;
+   	background-color: red;
+   	text-align: center;
+   	font-size: 13px;
+   	border-radius: 100%;
+   	color: #fff;
+   	position: relative;
+   	top: -38px;
+   	left: 325px;
+   }
+    .logo2>input{
+    	border-style:none none solid none;
+    }
+    .wrap2{
+    	/*background-color: blue;*/
+    	margin: 0 auto;
+    	width: 1090px;      	
+    }
+		.middle{
+			width: 100%;
+			height: 659.5px;
+		}
+		.wrapper-middle{
+			width: 1090px;
+			margin: 0 auto;
+		}
+		.left{
+            width: 534px;
+            height:440px; 
+            float: left;
+            position: relative;
+		}
+		.left>ul{
+			position: absolute;
+			right: 0;
+			width:78px;
+		}
+		.left>ul>li{
+			box-sizing: border-box;
+			width: 78px;
+			height: 78px;
+			margin-bottom: 10px;
+			background-color: green;
+		}
+		.left img{
+			width: 100%;
+		}
+		.left .da{
+			width: 430px;
+			height: 430px;
+			position: absolute;
+			top: 0;
+			left: -440px;
+			background-color:#fff;
+		}
+		.left>ul>li>img:hover{
+			border:4px solid #b4a078;
+		}
+		.left>ul>li:hover .da{
+			z-index: 10;
+		}
+		.nav11{
+		  height: 40px;
+		
+		}
+		.wrapper{
+			width: 1090px;
+			margin: 0 auto;
+		}
+		.nav11>li{
+			float: left;
+			height: 40px;
+			line-height: 40px;
+		}
+		.nav11>li>a{
+			color:#333;
+			font-size: 13px;
+			margin-right: 10px;
+		}
+		.nav11>li>a:first-child{
+			margin-left: 10px;
+		}
+		.fa{
+			color: gray;
+		}
+		.nav11>li:nth-child(2):hover,.nav11>li:nth-child(3):hover{
+			text-decoration: underline;
+		}
+.bottom{
+  width: 100%;
+  height: 198px;
+  background-color:#414141;
+  
+}
+.wrapper-bottom{
+  width: 1090px;
+  height: 198px;
+  background-color: #414141;
+  margin: 0 auto;
+}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+  	       <div class="top">
+         <ul class="top1">
+          <li><a href="#">好的生活，没那么贵</a></li>
+          <li class="ddhh"><i class="fa  fa-volume-up"></i>
+              <!--  <ul class="dh"> -->
+              <li class="dh1"><a href="#">福利，下载严选APP，抢1元包邮团，领...</a></li>
+                <!-- <li class="dh2"><a href="#">【严选x中行联名卡】达标领80元礼品卡</a></li>
+               </ul> -->
+              </li>
+          <li><a href="file:///F:/%E5%9F%B9%E8%AE%AD%E8%AF%BE/briup/4-project/%E7%BD%91%E6%98%93%E4%B8%A5%E9%80%89/denglu.html">登录</a></li>
+          <li><a href="#">注册&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li><a href="#">我的订单&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li><a href="#">会员&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li><a href="#">甄选家&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li><a href="#">企业采购&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+          <li class="kehu">
+            <a href="#">客户服务&nbsp;&nbsp;&nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+            <!-- <div  class="xiala"> -->
+             <ul class="xiala1">
+             <li class="kuang"><a href="">在线客服</a></li>
+             <li class="kuang"><a href="">帮助中心</a></li>
+             <li class="kuang"><a href="">商务合作</a></li>
+             <li class="kuang"><a href="">开放平台</a></li> 
+             </ul> 
+             <!-- </div>      -->
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-id-badge"></i>&nbsp;APP
+            </a>
+            <div class="erweima2">
+                  <img src="./images/erweima.png" alt="">
+                  </div>
+          </li> 
+         </ul>
+      </div>
+  	 <div class="logo"> 
+  	   <div class="wrap2">
+  	 	<div class="logo1"></div>
+  	 	<div class="logo2">
+  	 	   <input type="text" name="文本" style="width:250px; height:25px;" placeholder="英伦温莎轻雅双肩包&nbsp;13L" align="right">
+  	 		<a href=""><i class="fa fa-search"></i></a>
+  	 		<a href=""><i class="fa fa-cart-plus"></i></a>
+  	 		<div class="ling">0</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+   <div class="nav">
+   	   <div class="wrap3">
+   	   	  <ul class="nav1">
+   	   	  	<li><a href="#">首页</a></li>
+   	   	    <li class="ju">
+   	   	  	   <a href="#">居家</a>
+   	   	  	   <ul class="nav-zhong">
+   	   	  	   	<li class="z1">
+   	   	  	   	  <img src="./images1/ju1.png" alt=""><br>
+   	   	  	   	  <a href="#">夏凉</a>
+   	   	  	   	</li>
+   	   	  	   	<li class="z2">
+   	   	  	   	  <img src="./images1/ju2.png" alt=""><br>
+   	   	  	   	  <a href="#">床品件套</a>
+   	   	  	   	</li>
+   	   	  	   	<li>
+   	   	  	   	  <img src="./images1/ju3.png" alt=""><br>
+   	   	  	   	  <a href="#">被枕</a>
+   	   	  	   	</li>
+   	   	  	   	  <li>
+   	   	  	   	  <img src="./images1/ju4.png" alt=""><br>
+   	   	  	   	  <a href="#">家具</a>
+   	   	  	   	</li>
+   	   	  	   	<li>
+   	   	  	   	  <img src="./images1/ju5.png" alt=""><br>
+   	   	  	   	  <a href="#">灯具</a>
+   	   	  	   	</li>
+   	   	  	   	<li>
+   	   	  	   	  <img src="./images1/ju6.png" alt=""><br>
+   	   	  	   	  <a href="#">收纳</a>
+   	   	  	   	</li>
+   	   	  	   	<li>
+   	   	  	   	  <img src="./images1/ju7.png" alt=""><br>
+   	   	  	   	  <a href="#">布艺软装</a>
+   	   	  	   	</li>
+   	   	  	   	<li>
+   	   	  	   	  <img src="./images1/ju8.png" alt=""><br>
+   	   	  	   	  <a href="#">家饰</a>
+   	   	  	    </li>
+   	   	  	   	<li>
+   	   	  	   	  <img src="./images1/ju9.png" alt=""><br>
+   	   	  	   	  <a href="#">旅行用品</a>
+   	   	  	   	</li>
+   	   	  	   	<li>
+   	   	  	   	  <img src="./images1/ju10.png" alt=""><br>
+   	   	  	   	  <a href="#">晾晒除味</a>
+   	   	  	   	</li>
+   	   	  	   	<li>
+   	   	  	   	  <img src="./images1/ju11.png" alt=""><br>
+   	   	  	   	  <a href="#">家庭医疗</a>
+   	   	  	   	</li>
+   	   	  	    <li>
+   	   	  	   	  <img src="./images1/ju12.png" alt=""><br>
+   	   	  	   	  <a href="#">宠物</a>
+   	   	  	   	</li>
+   	   	  	   </ul>
+   	   	  	</li>
+   	   	  	<li><a href="#">鞋包配饰</a></li>
+   	   	  	<li><a href="#">服装</a></li>
+   	   	  	<li><a href="#">电器</a></li>
+   	   	  	<li><a href="#">洗护</a></li>
+   	   	  	<li><a href="#">饮食</a></li>
+   	   	  	<li><a href="#">餐厨</a></li>
+   	   	  	<li><a href="#">婴童</a></li>
+   	   	  	<li><a href="#">文体</a></li>
+   	   	  	<li><a href="#">特色区</a></li>
+   	   	  	<li><a href="#">为你严选</a></li>
+   	   	  	<li><a href="#">众筹</a></li>
+   	   	  </ul>
+   	   </div>
+   </div>
+<hr style="color:#ccc;opacity:.6;width:1300px;">
+  <ul class="nav11">
+  	<li>
+  	<a href="">首页</a>
+     <i class="fa fa-angle-right"></i>
+  	</li>
+  	<li>
+  	<a href="">居家</a>
+     <i class="fa fa-angle-right"></i>
+  	</li>
+  	<li>
+  	<a href="">床品件套</a>
+     <i class="fa fa-angle-right"></i>
+  	</li>
+  	<li>
+  	<a href="">全棉针织条纹四件套&nbsp;新款</a>
+   
+  	</li>
+  	<li><a href=""></a></li>
+  	<li><a href=""></a></li>
+  	<li><a href=""></a></li>
+  </ul>
+	 <div class="middle">
+	 	<div class="wrapper-middle">
+	 		<div class="left">
+	 			<ul class="zuo">
+	 				<li>
+	 					<img src="./images/xiao1.jpg"alt="">
+	 					<div class="da">
+	 						<img src="./images/da1.jpg" alt="">
+	 					</div>
+	 				</li>
+	 				<li>
+	 					<img src="./images/xiao2.jpg" alt="">
+	 					<div class="da">
+	 						<img src="./images/da2.jpg" alt="">
+	 					</div>
+	 				</li>
+	 				<li>
+	 					<img src="./images/xiao3.jpg" alt="">
+	 					<div class="da">
+	 						<img src="./images/da3.jpg" alt="">
+	 					</div>
+	 				</li>
+	 				<li>
+	 					<img src="./images/xiao4.jpg" alt="">
+	 					<div class="da">
+	 						<img src="./images/da4.jpg" alt="">
+	 					</div>
+	 				</li>
+	 				<li>
+	 					<img src="./images/xiao5.jpg" alt="">
+	 					<div class="da">
+	 						<img src="./images/da5.jpg" alt="">
+	 					</div>
+	 				</li>
+	 				
+	 			</ul>
+	 		</div>
+
+
+	 		<div class="right">
+	 			<div class="a">
+	 				<h3 >全棉针织纯色四件套</h3>
+					<p >100%针织棉，裸睡0束缚</p>
+					<div class="a-pingjia">
+						<h3 class="color1">97.8%</h3>
+						<p>好评率</p>
+	 			</div>
+	 			<div class="b">
+	 				<table>
+	 					<tbody>
+	 						<tr>
+	 							<td class="fz td1">价格</td>
+	 							<td class="jiage" >￥299</td>
+	 						</tr>
+	 						<tr>
+	 							<td class="fz jf">积分</td>
+	 							<td class="fz">购买最高得29积分</td>
+	 						</tr>
+	 						<hr style="border:1px dashed #ccc; ">
+	 						<tr>
+	 							<td class="fz fw">服务</td>
+	 							<td>
+	 								<ul class="fz wxlb
+	 								">
+	 									<li><a href="">支持30天无忧退换货</a></li>
+	 									<li><a href="">48小时快速退款</a></li>
+	 									<li><a href="">4满88元免邮费</a></li>
+	 									<li><a href="">网易自营品牌</a></li>
+	 									<li><a href="">国内部分地区无法配送</a></li>
+	 								</ul>
+	 							</td>
+	 						</tr>
+	 					</tbody>
+	 				</table>
+	 			</div>
+	 			<ul class="c">
+	 				<li>颜色</li>
+	 				<li><img src="./images/ys1.png" alt=""></li>
+	 				<li><img src="./images/ys2.png" alt=""></li>
+	 				<li><img src="./images/ys3.png" alt=""></li>
+	 				<li><img src="./images/ys4.png" alt=""></li>
+	 				<li><img src="./images/ys5.png" alt=""></li>
+	 				<li><img src="./images/ys6.png" alt=""></li>
+	 				<li><img src="./images/ys7.png" alt=""></li>
+	 				<li><img src="./images/ys8.png" alt=""></li>
+	 				<li><img src="./images/ys9.png" alt=""></li>
+	 				<li><img src="./images/ys10.png" alt=""></li>
+	 				<li><img src="./images/ys11.png" alt=""></li>
+	 				<li><img src="./images/ys12.png" alt=""></li>
+	 				<li><img src="./images/ys13.png" alt=""></li>
+	 				<li><img src="./images/ys14.png" alt=""></li>
+	 			</ul>
+	 			<div class="d">
+	 				<div>尺寸</div>
+	 				<div>1.5M(床尺寸)</div>
+	 				<div>1.8M(床尺寸)</div>
+	 			</div>
+
+	 			<div class="e">
+	 				<div class="shu">数量</div>
+	 				<div>-</div>
+	 				<div>1</div>
+	 				<div>+</div>
+	 				
+	 			</div>
+	 			<div class="f">
+	 				<div class="f1">立即购买</div>
+	 				<div class="f2">
+	 					<i class="fa fa-cart-arrow-down icon1"></i>
+	 					<span>加入购物车</span>
+	 				</div>
+	 				<div class="f3">
+	 					<i class="fa fa-star icon2 "></i>
+	 					<div>收藏</div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </div>
+
+
+
+	  <div class="footer">
+   	  <div class="wrapper-footer">
+   	  <div class="wo">
+   	  	  <div class="yi">
+   	  	    <span class="feng">客户服务</span>
+   	  	    <ul class="dibu">
+   	  	    	<li class="erji">
+   	  	    		<i class="fa fa-headphones"></i>
+   	  	    		<div><br>在线客服</div>
+   	  	    	</li>
+   	  	    	<li class="xinxi">
+   	  	    		<i class="fa fa-commenting-o"></i>
+   	  	    		<div><br>用户反馈</div>
+   	  	    	</li>
+
+   	  	    </ul>
+   	  	  </div>
+   	  	  <div class="er">
+   	  	  <div>
+   	  	      <span class="feng">何为严选</span><br>
+   	  	      <p>网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</p>
+   	  	      </div>
+   	  	      <div>
+   	  	      	<span class="guan">关注我们：</span>
+   	  	      	 <ul class="guan1">
+   	  	      	 	<li>
+   	  	      	 		<img src="./images/g1.png" alt="">
+   	  	      	 		<div class="erweima1">
+   	  	      		   <img src="./images/erweima.png" alt="">
+   	  	          	 </div>
+   	  	      	 	</li>
+   	  	      	 	<li>
+   	  	      	 		<img src="./images/g2.png" alt="">
+   	  	      	 		<div class="erweima2">
+   	  	      		<img src="./images/erweima.png" alt="">
+   	  	         	</div>
+   	  	      	 	</li>
+   	  	      	 	<li>
+   	  	      	 		<img src="./images/g3.png" alt="">
+   	  	      	 	</li>
+   	  	      	 </ul>
+   	  	      	  
+   	  	      	
+   	  
+   	  	      
+   	  	      </div>
+
+   	  	  </div>
+   	  	  <div class="san">
+   	  	  	<span class="feng">扫码下载严选APP</span>
+   	  	  	<div>
+   	  	  		<img src="./images/erweima.png" alt="">
+   	  	  	</div>
+   	  	  </div>
+   	  	  </div>
+   	  </div>
+   </div>
+
+   <div class="bottom">
+       <div class="wrapper-bottom">
+       <img src="./images/bottom.png" alt="">
+       </div>
+   </div>
+
+
+   <ul class="fix">
+   	<li class="one">
+   	   <img src="./images/gu1.gif" alt="">
+   	</li>
+   	<li class="two">
+   		<img src="./images/erweima.png" alt="">
+   	</li>
+   	<li class="three">
+   		<div>扫码领</div>
+   		<div>APP1000元</div>
+   		<div>新人礼</div>
+   	</li>
+   	<li class="four">
+   		<i class="fa fa-rss"></i>
+   		<div class="fix2">
+   		 
+   		<span>订阅电子刊</span></div> 
+   		<ul class="fu">
+   			<li><img src="./images/meixue.png" alt=""></li>
+   			<li><span>订阅电子刊&nbsp;第一时间获取严选最新资讯</span></li>
+   			<li>
+   			<div class="fu1"><input type="text" name="wenben" value="" style="width:250px; height:30px;" placeholder="输入您的电子邮件" ></div>
+   			<div class="fu2"><span>立即订阅</span></div>
+   			</li>
+   			<li><img src="./images/mei-di.png" alt=""></li>
+   		</ul>
+   	</li>
+   	<li class="five">
+   		<i class="fa fa-headphones"></i>
+   		<div class="fix2">
+   		<span>在线客服</span></div> 
+   	</li>
+   </ul>
+	 </div>
+</body>
+</html>

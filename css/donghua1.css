@@ -1,0 +1,49 @@
+
+
+
+
+
+.ddhh{
+	width: 270px;
+	height: 30px;
+	overflow: hidden;
+
+}
+.dh{
+	width: 250px;
+	position: relative;
+	top: -35px;
+	left: 20px;
+
+	animation-name: tiao;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(2);
+	
+}
+.dh1{
+	width: 250px;
+	height: 30px;
+	
+	margin-bottom: 0;
+}
+.dh>li
+{
+	float: left;
+}
+ .dh .dh2{
+ 	width: 240px;
+ 	height: 30px;
+ 	
+ }
+
+ @keyframes tiao{
+ 	0%{
+     	top: 0;
+ 	}
+ 	100%{
+ 		top: -80px;
+ 	}
+ }
+	
+

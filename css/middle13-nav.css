@@ -1,0 +1,48 @@
+.middle13{
+	padding: 20px;
+	
+	margin-top: 20px;
+}
+.wrapper13{
+	padding-top: 20px;
+	width: 1090px;
+	margin: 0 auto;
+	height: 400px;
+
+}
+.miaoshu{
+	height:50px;
+	
+	text-align: center;
+	line-height: 50px; 
+	
+}
+.miaoshu>li{
+    float: left;
+    width: 100px;
+    font-size: 16px;
+}
+.miaoshu>li>a:hover{
+	color: rgb(180,160,120);
+}
+.miaoshu>li:nth-child(1){
+	font-size: 32px;
+}
+.miaoshu>li:last-child{
+	 width: 90px;
+}
+.miaoshu>li:nth-child(2){
+	margin-left: 300px;
+}
+.tupian{
+	height: 310px;
+}
+/*.miaoshu>li:nth-child(2),
+.miaoshu>li:nth-child(3),
+.miaoshu>li:nth-child(4)
+{
+	width: 60px;
+}*/
+
+
+

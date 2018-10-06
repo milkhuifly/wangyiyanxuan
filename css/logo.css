@@ -1,0 +1,60 @@
+.wrap{
+  width: 1090px;
+  margin: 0 auto;
+}
+.logo1{
+	background: url("./images/wyyx.png") no-repeat center;
+	background-color:#ccc;
+	height: 107px;
+	width: 218px;
+	background-origin:padding-box;
+  margin: 0 auto;
+  }
+   .logo2{
+    width: 400px;
+    height: 50px;
+      position: relative;
+      top: -65px;
+      left: 730px;
+
+   }
+   input{
+    z-index:0;
+   }
+   .logo2>a>i{
+   	color: 	#FFDEAD;
+   	font-size: 26px;
+   }
+   .logo2>a>i:hover{
+   	 color: rgb(180,160,120);
+   	
+   	 font-size: 26px;
+   }
+    .logo2 .fa-search{
+   	position: relative;
+   	left:10px; 	
+   }
+   .logo2 .fa-cart-plus{
+   	position: relative;
+   	left: 20px; 	
+   }
+   .logo2>div.ling{
+   	width: 15px;
+   	height: 15px;
+   	background-color: red;
+   	text-align: center;
+   	font-size: 13px;
+   	border-radius: 100%;
+   	color: #fff;
+   	position: relative;
+   	top: -38px;
+   	left: 325px;
+   }
+    .logo2>input{
+    	border-style:none none solid none;
+    }
+    .wrap2{
+    	/*background-color: blue;*/
+    	margin: 0 auto;
+    	width: 1090px;      	
+    }

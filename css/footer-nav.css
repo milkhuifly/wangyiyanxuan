@@ -1,0 +1,151 @@
+.footer{
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 34px;
+}
+.wrapper-footer{
+	width: 1090px
+	margin: 0 auto;
+	height: 204px;
+	position: relative;
+}
+.wrapper-footer::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrapper-footer>.wo{
+	width: 1090px;
+	margin: 0 auto;
+}
+.wrapper-footer>.wo>div{
+	width: 363px;
+	height: 204px;
+	float: left;
+}
+.wrapper-footer>.wo>.yi{
+	/*background-color: #ccc;*/
+	text-align: center;
+	font-size: 18px;
+}
+/*.wrapper-footer>.wo>.er{
+	background-color: green;
+}
+.wrapper-footer>.wo>.san{
+	background-color: yellow;
+}*/
+.wrapper-footer .yi>span{
+	margin-bottom: 28px;
+}
+.dibu{
+	width:210px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.dubu::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.dibu>li{
+	float: left;
+}
+.dibu .erji{
+	width: 80px;
+	height:100px;
+	margin-top: 25px;
+	font-size: 16px;
+	
+/*	background-color: #336666;*/
+}
+.erji .fa-headphones,.xinxi .fa-comminting-o{
+	font-size: 35px;
+	font-weight: lighter;
+}
+.xinxi>i{
+	font-size: 35px;
+	font-weight: lighter;
+}
+}
+.erji>div,.xinxi>div{
+	margin-top: 20px;
+}
+.dibu .xinxi{
+	width: 80px;
+	height:100px;
+	margin-top: 25px;
+	margin-left: 25px;
+	font-size: 16px;
+	/*background-color: #336666;*/
+}
+.erji:hover,.xinxi:hover{
+	color: rgb(180,160,120);
+}
+.wrapper-footer>.wo>.er{
+	/*background-color: #ccc;*/
+	text-align: center;
+	font-size: 18px;
+}
+.er p{
+	font-size: 16px;
+}
+.er>div:nth-child(2){
+	width: 400px;
+	height: 30px;
+	/*background-color: teal;*/
+	text-align: left;
+}
+.er>div:nth-child(2)>span{
+font-size: 16px;
+position: relative;
+left: 0;
+}
+.con1,.con2{
+	position: relative;
+}
+.er .erweima1{
+	position: absolute;
+	left: -20px;
+	top: 40px;
+	display: none;
+}
+.guan .guan1::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.er .guan1{
+	width: 170px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	top:-25px;
+	left: -20px;
+}	
+.er .guan1>li{
+	float: left;
+	margin-right: 10px;
+}
+.er .erweima2{
+	position: absolute;
+	left:20px;
+	top: 40px;
+	display: none;
+}
+.er .guan1>li:hover>div{
+	display: block;
+}
+.wrapper-footer>.wo>.san{
+	/*background-color: #ccc;*/
+	text-align: center;
+	font-size: 18px;
+}
+.san>div{
+	height: 93px;
+	position: relative;
+	top: 50%;
+	margin-top: -78.5px;
+}
+
+
+

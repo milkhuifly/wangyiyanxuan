@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录界面</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
+	<style>
+	     .top{
+        	position: relative;
+        }
+        .bj{
+        	background-color: #000;
+        	background:url("./images/beijing.png") no-repeat center;
+        	background-origin: padding-box;
+        	width: 1352px;
+        	height: 638px;
+        }
+        .bj>div{
+        	width: 1352px;
+        	height: 638px;
+        	background-color: #000;
+        	opacity: 0.7;
+        }
+		.nav{
+			width: 386px;
+			height:400px;
+		    background-color: #fff;
+			position: absolute;
+			left: 50%;
+			margin-left:-193px;
+			top: 50%;
+			margin-top: -223px;
+		}
+		.nav .d1{
+			height: 40px;
+		/*	background-color: blue;*/
+			text-align: center;
+			line-height: 40px;
+			padding:10px 0;
+		}
+		.denglu{
+			padding:10px;
+			position: relative;
+		}
+		.nav .d1>div{
+         float: left;
+         width: 180px;
+         border-right: 1px solid gray;
+		}
+		.nav .d1>div:nth-child(2),.nav .d1>div:nth-child(3){
+			 border-right:0;
+		}
+		.nav .d1>div:last-child>a{
+			color: gray;
+		}
+		.denglu>li:nth-child(2){
+			height:30px; 
+			width: 350px;
+			/*background-color: blue;*/
+			text-align:right;
+		}
+		.denglu>li:nth-child(2)>a{
+			font-size: 14px;
+            color: gray; 
+		}
+		.denglu>li:nth-child(3){
+			width: 370px;
+			box-sizing: border-box;	
+		}
+		.form{
+			height:40px;
+			width: 100%;
+			/*margin: 1em 0;*/
+			padding: .5em;
+		}
+		.label{
+           float: left;
+           width: 2em;
+           line-height: 2em;
+           text-align: center;
+           border-right: 1px solid #ccc;
+		}
+		.input{
+			width: 100%;
+			line-height: 2em;
+		}
+		.input>input{
+			width: 75%;
+			height: 40px;
+			padding-left: 1em;
+			margin-left: 1em;
+			border: none;
+		}
+       .li4{  
+       position: relative;
+       	border-radius: 18px;
+       	margin-top: 10px;
+       }
+       .li4 .li44{
+       	height: 35px;
+       	width: 80px;
+       
+       	border-radius: 25px;
+        position: relative;
+        font-size: 15px;
+       }
+       .li4 .li44>div:first-child{
+       	float: left;
+       	width: 35px;
+       }
+         .li4 .li44>div:last-child{
+         	margin-left: 120px;
+         	width:220px;
+         	height: 35px;
+         	line-height: 35px;
+         /*	background-color: green;*/
+         	color: gray;
+         }
+        .li4 .li44 img{
+          height: 22px;
+          width: 35px;
+          position: absolute;
+          left: 50%;
+          margin-left: -17px;
+          top: 50%;
+          margin-top: -11px;
+      }
+      .denglu>li:nth-child(5)>.input{
+          	margin-left:50px;
+        }
+        .denglu>li:nth-child(5)>div:nth-child(2){
+        	position: relative;
+        	width: 80px;
+        	height: 42px;
+        	
+        	font-size: 15px;
+            text-align: center;
+            line-height: 35px;
+            top: -42px;
+            left: 272px;
+        }
+        .denglu>li:nth-child(6){
+        	position: relative;
+        }
+         .denglu>li:nth-child(6)>div{
+         	width: 290px;
+         	height: 46px;
+         	background-color: rgb(180,160,120);
+         	margin: 0 autos;
+         	color: #fff;
+         	text-align: center;
+         	line-height: 45px;
+         	font-size: 23px;
+         	position: absolute;
+         	left: 50%;
+         	margin-left: -120px;
+         	top: 50%;
+         	margin-top: -23px;
+         	margin-top: 5px;
+
+         }
+         .footer{
+         	width: 370px;
+         	height: 35px;
+         	
+         	position:relative;
+            top:76px; 
+
+         }
+          .footer>li{
+          	float:left;
+          }
+           .footer>li:first-child{
+           	margin-left: 20px;
+           }
+           .footer .shou,.footer .wenti{
+               font-size: 13px;
+              	height: 35px;
+               color: gray;
+               text-align: right;
+               line-height: 35px;
+           }
+           .footer .shou{
+           	margin-left: 24px;
+           	margin-right: 14px;
+           }
+           .fa-id-badge{
+           	color: gray;
+           }
+           .li4:hover>.tu{
+           	display: block;
+           }
+           .tu{
+           	width: 258px;
+           	height: 79px;
+           	background-color: teal;
+           	position: absolute;
+           	top: -80px;
+           	left: 64px;
+           	display: none;
+           }
+           .d1:hover>div:nth-child(2)>a{
+           	color: rgb(180,160,120);
+           }
+           .denglu>li:nth-child(2):hover>a{
+           	color: rgb(180,160,120);
+           }
+            .denglu>li:nth-child(5)>div:last-child:hover{
+            		color: rgb(180,160,120);
+            }
+           /* .footer .tubiao:hover img{
+            	 	color: rgb(180,160,120); 
+            }*/
+            .denglu>li:nth-child(7)>ul>li img:hover{
+            	color: rgb(180,160,120);
+            }
+            .shou:hover>a,.wenti:hover>a{
+            		color: rgb(180,160,120);
+            }
+            .denglu{
+            	position: relative;
+            }
+            .d1>div:last-child{
+               position: absolute;
+               top:0;
+                right:-70px;
+               font-size: 50px;
+            }
+	</style>
+</head>
+<body>
+<div class="top">
+	<div class="bj"><div></div></div>
+   	<div class="nav">
+   		<ul class="denglu">
+   			<li class="d1">
+   				<div>手机号登录</div>
+   				<div><a href="">邮箱登录</a></div>
+   				<div><a href="wyyx.html"><i class="fa fa-close"></a></i></div>
+   			</li>
+   			<li ><a href="">使用密码验证登录</a></li>
+   			<li class="input-box">
+   				<ul class="form">
+   					<li class="label"><i class="fa fa-id-badge"></i></li>
+   					<li class="input"><input type="text" placeholder="请输入手机号"></li>
+   				</ul>
+   			</li>
+   			<li class="li4">
+   				<div class="li44">
+   					<div class="gang"><img src="./images/gang.png" alt=""></div>
+   					 <div>按住滑块，拖动完成上方拼图</div>           
+   				</div>
+   				<div class="tu"><img src="./images/pintu.png" alt=""></div>
+   			</li>
+   			<li>
+   				<div class="input">
+   					<input type="text" placeholder="请输入短信验证码">
+   				</div>
+   				<div>获取验证码</div>
+   			</li>
+   			<li>
+   				<div>登&nbsp;&nbsp;录</div>
+   			</li>
+   			<li>
+   				<ul class="footer">
+   					<li class="tubiao"><img src="./images/weixin.png" alt=""></li>
+   					<li class="tubiao"><img src="./images/qq.png" alt=""></li>
+   					<li class="tubiao"><img src="./images/weibo.png" alt=""></li>
+   					<li class="tubiao"><img src="./images/yixin.png" alt=""></li>
+   					<li class="shou" ><a href="">手机快捷注册</a></li>
+   					<li class="wenti"><a href="">遇到问题？</a></li>
+   				</ul>
+   			</li>
+   		</ul>
+   	</div>
+</div>
+
+
+</body>
+</html>

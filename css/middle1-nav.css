@@ -1,0 +1,182 @@
+.middle1{
+   	 height: 420px;
+   	 width: 100%;
+   }
+img{
+	display: block;
+}
+.tupian{
+	width:100%;
+	height: 420px;
+	overflow:hidden;
+}
+.tupian>li{
+	width: 1920px;
+	height: 420px;
+	position: relative;
+	left: 50%;
+	margin-left: -960px;
+}
+.m2{
+	top: -420px;
+	animation:photo2 16s both linear infinite;
+
+}
+.m3{
+	top: -840px;
+	animation:photo3 16s both linear infinite;
+
+}
+.m4{
+	top: -1260px;
+	animation:photo4 16s both linear infinite;
+
+}
+.m5{
+	top: -1680px;
+	animation:photo5 16s both linear infinite;
+
+}
+
+.m6{
+	top: -2100px;
+	animation:photo6 16s both linear infinite;
+
+}
+
+.m7{
+	top: -2520px;
+	animation:photo7 16s both linear infinite;
+
+}
+.m8{
+	top: -2940px;
+	animation:photo8 16s both linear infinite;
+}
+@keyframes photo2{
+   0%{
+   	 opacity: 0;
+   }14%{
+   	 opacity: 1;
+   }28%{
+   	 opacity: 0;
+   }43%{
+   	 opacity: 0;
+   }57%{
+   	 opacity: 0;
+   }71%{
+   	 opacity: 0;
+   }86%{
+   	 opacity: 0;
+   }100%{
+   	 opacity: 0;}
+}
+@keyframes photo3{
+   0%{
+   	 opacity: 0;
+   }14%{
+   	 opacity: 0;
+   }28%{
+   	 opacity: 3;
+   }43%{
+   	 opacity: 0;
+   }57%{
+   	 opacity: 0;
+   }71%{
+   	 opacity: 0;
+   }86%{
+   	 opacity: 0;
+   }100%{
+   	 opacity: 0;}
+}
+@keyframes photo4{
+   0%{
+   	 opacity: 0;
+   }14%{
+   	 opacity: 0;
+   }28%{
+   	 opacity: 0;
+   }43%{
+   	 opacity: 4;
+   }57%{
+   	 opacity: 0;
+   }71%{
+   	 opacity: 0;
+   }86%{
+   	 opacity: 0;
+   }100%{
+   	 opacity: 0;}
+}
+@keyframes photo5{
+   0%{
+   	 opacity: 0;
+   }14%{
+   	 opacity: 0;
+   }28%{
+   	 opacity: 0;
+   }43%{
+   	 opacity: 0;
+   }57%{
+   	 opacity: 5;
+   }71%{
+   	 opacity: 0;
+   }86%{
+   	 opacity: 0;
+   }100%{
+   	 opacity: 0;}
+}
+@keyframes photo6{
+   0%{
+   	 opacity: 0;
+   }14%{
+   	 opacity: 0;
+   }28%{
+   	 opacity: 0;
+   }43%{
+   	 opacity: 0;
+   }57%{
+   	 opacity: 0;
+   }71%{
+   	 opacity: 1;
+   }86%{
+   	 opacity: 0;
+   }100%{
+   	 opacity: 0;}
+}
+@keyframes photo7{
+   0%{
+   	 opacity: 0;
+   }14%{
+   	 opacity: 0;
+   }28%{
+   	 opacity: 0;
+   }43%{
+   	 opacity: 0;
+   }57%{
+   	 opacity: 0;
+   }71%{
+   	 opacity: 0;
+   }86%{
+   	 opacity: 1;
+   }100%{
+   	 opacity: 0;}
+}
+@keyframes photo8{
+   0%{
+   	 opacity: 0;
+   }14%{
+   	 opacity: 0;
+   }28%{
+   	 opacity: 0;
+   }43%{
+   	 opacity: 0;
+   }57%{
+   	 opacity: 0;
+   }71%{
+   	 opacity: 0;
+   }86%{
+   	 opacity: 0;
+   }100%{
+   	 opacity: 1;
+   	}
+}

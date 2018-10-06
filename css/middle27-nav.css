@@ -1,0 +1,38 @@
+.middle27{
+	margin-top: 20px;
+}
+.wrapper27{
+	width: 1090px;
+	margin: 0 auto;
+    height: 450px;
+}
+.miaoshu>li{
+	float: left;
+	height: 50px;
+}
+.miaoshu>li:nth-child(2){
+   width: 220px;
+   margin-left: 20px;
+}
+.tupian1{
+	width: 1090px;
+	height: 380px;
+}
+.tupian1>div{
+	float: left;
+	height: 380px;
+}
+.tupian1 .zuo{
+	width: 690px;
+	height: 380px;
+	margin-right: 10px;
+}
+.you{
+	width: 390px;
+	height: 380px;
+}
+.shang{
+	height: 184px;
+	margin-bottom: 12px;
+}
+
